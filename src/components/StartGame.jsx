@@ -6,7 +6,7 @@ const StartGame = ({toggle}) => {
   return <Home>
     <a href="https://github.com/adarshgupta14"><TbHexagonLetterA style={{fontSize: '50px', marginLeft: "40px", marginTop: "5px"}}/></a>
     <div className="container">
-      <img src="/images/dice.png" alt="" />
+      <img src="./images/dice.png" alt="" />
       <div className="content">
         <h1>DICE GAME</h1>
         <Button onClick={toggle}>Play Now</Button>
